@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Little Caesars</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+<div class="ui topheader borderless menu">
+  <div class="ui icon button">
+    <i class="big sidebar icon"></i>
+  </div>
+  <img class="ui centered image" src="lclogo.png">
+
+  <div class="ui transparent icon input">
+    <input type="text" placeholder="Enter your city or zip code">
+    <i class="big marker icon"></i>
+
+  </div>
+</div>
+<div class="ui centered grid container">
+  <div class="row">
+    <img src="pizza.jpg">
+  </div>
+  <div class="three column row">
+    <a id="pizzas" class="column">
+      <h3 class="ui threeh header">PIZZAS</h3>
+    </a>
+    <a id= "sides" class="column">
+      <h3 class="ui threeh header">SIDES</h3>
+    </a>
+    <a id="promo" class="column">
+      <h3 class="ui threeh header">PROMOTIONS</h3>
+    </a>
+  </div>
+</div>
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+</script>
+</body>
+</html>

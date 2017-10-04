@@ -1,0 +1,62 @@
+.ui.topheader.borderless.menu{
+  height: 75px;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: #ff671b;
+  margin: 0px;
+  padding: 0px;
+}
+.ui.centered.image{
+  height: 68px;
+  width: 300px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.ui.icon.button{
+  color: white;
+  background-color: #ff671b;
+  text-align: left;
+  margin: 0px;
+}
+.big.sidebar.icon{
+  padding-top: 10px;
+}
+.ui.icon.input{
+  width: 260px;
+  height: 55px;
+  padding-top: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+.marker.icon{
+  color: white;
+}
+.input{
+  color: white;
+}
+.ui.image{
+  margin: 0px;
+  padding: 0px;
+}
+.ui.centered.grid.container{
+  padding-top: 30px;
+}
+#pizzas{
+  background-image: url("pizza2.jpg");
+}
+.ui.threeh.header{
+  font-family: Montserrat, sans-serif;
+  font-size: 34px;
+  color: white;
+}
+#sides{
+  background-image: url("sides.jpg");
+}
+#promo{
+  background-image: url("promo.jpg");
+
+ }
+.three.column.row{
+  height: 400px;
+}
